@@ -1,0 +1,19 @@
+{
+  "name": "nexa-pont-imap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pont IMAP Namecheap Private Email vers Supabase (lecture seule)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.45.4",
+    "imapflow": "1.0.164",
+    "mailparser": "3.7.1"
+  }
+}
